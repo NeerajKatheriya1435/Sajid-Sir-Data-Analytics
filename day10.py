@@ -25,5 +25,17 @@
 # h3=Human("Sahil",36)
 # h3.details()
 
-h4=Human("Jazaul",78)
-h4.details()
+# h4=Human("Jazaul",78)
+# h4.details()
+
+# class Car:
+#     def __init__(self,name):
+#         self.name=name
+
+    
+# c1=Car("Toyota")
+# c2=Car("Honda")
+
+# print(c1.name)
+# print(c2.name)
+        
