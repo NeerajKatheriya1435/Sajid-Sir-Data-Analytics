@@ -10,9 +10,9 @@ city_name VARCHAR(50)
 
 insert into cities (city_id,city_name)
 values
-(4,"Goa");
--- (2,"Noida"),
--- (3,"Ghaziabad");
+(1,"Goa"),
+(2,"Noida"),
+(3,"Ghaziabad");
 
 select * from cities;
 -- delete from cities
@@ -25,18 +25,18 @@ city_id INT,
 FOREIGN KEY (city_id) REFERENCES cities(city_id)
 );
 
--- insert into students(roll_no,name,city_id)
--- values
--- (111,"Rohan",6),
--- (112,"Suman",8),
--- (103,"Raghav",2),
--- (104,"Rahesh",3),
--- (105,"Rohan",1),
--- (106,"Sumtra",3),
--- (107,"Parth",1),
--- (108,"John",2),
--- (110,"Peter",3),
--- (109,"Mohan",1);
+insert into students(roll_no,name,city_id)
+values
+(111,"Rohan",6),
+(112,"Suman",8),
+(103,"Raghav",2),
+(104,"Rahesh",3),
+(105,"Rohan",1),
+(106,"Sumtra",3),
+(107,"Parth",1),
+(108,"John",2),
+(110,"Peter",3),
+(109,"Mohan",1);
 
 select * from students;
 

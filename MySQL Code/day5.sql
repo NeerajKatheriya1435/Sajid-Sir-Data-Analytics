@@ -36,3 +36,5 @@ status VARCHAR(20) DEFAULT 'Active'
 
 insert into students (name,age,email)
 values("Sajid",89,"sajid@rohan.com");
+
+select * from students;

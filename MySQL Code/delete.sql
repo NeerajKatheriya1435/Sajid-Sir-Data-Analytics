@@ -166,6 +166,8 @@ INSERT INTO enrollments VALUES
 (14, 4, 101, 201, '2025-02-04'),
 (15, 5, 102, 202, '2025-02-05');
 
+select * from enrollments;
+
 SELECT students.student_name, courses.course_name
 FROM enrollments
 INNER JOIN students
@@ -201,5 +203,5 @@ GROUP BY teachers.teacher_id;
 SELECT department, count(*) AS total_employee
 FROM employees
 GROUP BY department
-having count(*)>=6;
+having count(*)>=2;
 
